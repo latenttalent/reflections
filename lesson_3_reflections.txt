@@ -2,4 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 	I would use a remtoe repository when: 1.) I either need to access a project from multiple computers, OR 2.) I am working on a group project where I will be collaborating with others.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-	
+	Because you could have a file in working directory or possibly in the staging area at the time of automatic up-to-date, which would lead to conflicts at the time of committing.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forks are clone of one GitHub repository to another GitHub repository. Clones are copy of a repository from GitHub to another location, most likely on local computers. Branches are an instance of a parent repository with user specific changes.
